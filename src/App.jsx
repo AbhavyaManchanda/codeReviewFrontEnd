@@ -7,7 +7,7 @@ import rehypeHighlight from "rehype-highlight"; // For highlighting code in Mark
 import "highlight.js/styles/github-dark.css"; // Theme for highlight.js (used by rehypeHighlight)
 import axios from "axios";
 import "./App.css"; // Your custom CSS
-const API_URL ="https://codereviewbackend-nr9v.onrender.com/";
+const API_URL ="https://codereviewbackend-nr9v.onrender.com";
 
 function App() {
   const [code, setCode] = useState(
